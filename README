@@ -1,0 +1,32 @@
+Karun (A package manager for ArchLinux based on 'pacman')
+
+
+== Introduction ==
+
+Karun is a graphical package manager for ArchLinux.  It is written in Java and
+uses 'pacman' behind the scenes.
+
+== Current Status ==
+
+Karun is in the early development phase.  So until version is 0.1.0 is out it
+is NOT recommended to use Karun on any serious machine!
+
+== How To Run? ==
+
+So if you're interested in contributing, finding bugs or just curious AND have
+a spare machine or a virtual machine to screw up, do as below:
+  1.  Grab a copy of Karun.
+  2.  Extract the archive and 'cd' into the directory.
+  3.  Run the following at the command prompt:
+        $ ant
+  4.  Now run:
+        $ java -cp $CLASSPATH:lib/commons-compress-1.1.jar:lib/commons-io-2.0.1.jar:commons-lang-2.6.jar -jar Karun.jar 
+
+== Notes ==
+
+You may wonder what does 'Karun' mean.
+http://en.wikipedia.org/wiki/Karun
+It is a large river located southwest of Iran which finally flows into
+Persian Gulf.  It is the largest river of Iran which is the source of life for
+many creatures, plants and even humans.  And yet, it just generously passes by,
+feeding life as it swirls under the powerful and bright sunshine of Khuzestan.
